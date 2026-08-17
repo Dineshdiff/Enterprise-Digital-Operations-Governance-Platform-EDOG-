@@ -1,0 +1,11 @@
+EntityKey:
+  Name: cr4fe_IncidentID
+  LogicalName: cr4fe_incidentid
+  IntroducedVersion: 1.0.0.0
+  IsCustomizable: 0
+  EntityKeyAttributes:
+    AttributeName: cr4fe_incidentid
+  displaynames:
+    displayname:
+      '@description': IncidentID
+      '@languagecode': 1033

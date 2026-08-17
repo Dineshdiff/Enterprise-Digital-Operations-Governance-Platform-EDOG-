@@ -1,0 +1,12 @@
+WebResource:
+  WebResourceId: '{07cc3c99-1d9a-f111-b8db-000d3a31bafa}'
+  Name: dinesh_EDOG
+  DisplayName: EDOG
+  WebResourceType: 6
+  IntroducedVersion: 1.0.0.0
+  IsEnabledForMobileClient: 0
+  IsAvailableForMobileOffline: 0
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  IsHidden: 0
+  FileName: /webresources/07cc3c99-1d9a-f111-b8db-000d3a31bafa/dinesh_EDOG07CC3C99-1D9A-F111-B8DB-000D3A31BAFA.jpg
