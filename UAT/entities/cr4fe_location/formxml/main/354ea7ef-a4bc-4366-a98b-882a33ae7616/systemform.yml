@@ -1,0 +1,160 @@
+systemform:
+  formid: '{354ea7ef-a4bc-4366-a98b-882a33ae7616}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{a768b393-7954-4b89-affa-7e80e41dde37}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{be9e21cf-aed6-46ad-bd3d-9434a36c8531}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{a5b06ad0-355f-4536-a0c0-ea454d971a70}'
+                      labels:
+                        label:
+                          '@description': Location Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{b4fbbb51-5dbf-45a1-97de-645f419eb217}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{0638b294-c929-420d-aabb-94d58f26304c}'
+                      labels:
+                        label:
+                          '@description': Location Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_location_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_location_name
+                  - cell:
+                      '@id': '{f63fd686-8c6a-4554-a906-d0d0dca8ae9e}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{394950ab-80ee-4e3b-bf73-6ea33f433f10}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{01f89cd9-d60a-48a6-9750-fd8f0862ab51}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{da9d09d3-2a4e-4678-994c-ee44b4422faa}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{1dc210f2-39ff-48c4-b43b-b81e84712809}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{8627be86-45a3-41dc-93d6-6513b586ec16}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{2382a63f-3881-42a3-8f54-7f062b3f7a0d}'
+                      labels:
+                        label:
+                          '@description': City
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_city
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_city
+                  - cell:
+                      '@id': '{210e4bb1-5d49-47eb-8118-c84780a7979f}'
+                      labels:
+                        label:
+                          '@description': Country
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_country
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_country
+                  - cell:
+                      '@id': '{72378afc-1afb-4cd0-b2ca-e5114ebb5c39}'
+                      labels:
+                        label:
+                          '@description': Location Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_location_type
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_location_type
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

@@ -1,0 +1,53 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 1
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{67ced5f0-4ba9-4e79-b3f6-3c70b0727284}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_databaseid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 4
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_database
+        attribute:
+        - '@name': cr4fe_databaseid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        order:
+          '@attribute': cr4fe_name
+          '@descending': false
+        filter:
+        - '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+        - '@type': or
+          '@isquickfindfields': 1
+          condition:
+            '@attribute': cr4fe_name
+            '@operator': like
+            '@value': '{0}'
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Quick Find Active Databases
+      '@languagecode': 1033

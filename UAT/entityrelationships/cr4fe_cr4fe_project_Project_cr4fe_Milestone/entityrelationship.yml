@@ -1,0 +1,27 @@
+EntityRelationship:
+  '@Name': cr4fe_cr4fe_project_Project_cr4fe_Milestone
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0
+  IsHierarchical: 0
+  ReferencingEntityName: cr4fe_Milestone
+  ReferencedEntityName: cr4fe_Project
+  CascadeAssign: NoCascade
+  CascadeDelete: RemoveLink
+  CascadeArchive: RemoveLink
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: cr4fe_Project
+  RelationshipDescription: 
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: cr4fe_Project
+      RelationshipRoleType: 1
+    - NavigationPropertyName: cr4fe_cr4fe_project_Project_cr4fe_Milestone
+      RelationshipRoleType: 0

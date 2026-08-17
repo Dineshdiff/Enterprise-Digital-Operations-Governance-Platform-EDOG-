@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{81f7b511-887b-49a5-9922-1e64e1c51a4f}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_incidentid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_incident
+        attribute:
+        - '@name': cr4fe_incidentid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        order:
+          '@attribute': cr4fe_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 1
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Inactive Incidents
+      '@languagecode': 1033

@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{fbd398dd-c5f4-4b17-8751-0ec12e4c8e58}'
+  layoutxml:
+    grid:
+      '@name': cr4fe_auditfindings
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr4fe_auditfinding
+        '@id': cr4fe_auditfindingid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_auditfinding
+        attribute:
+        - '@name': cr4fe_auditfindingid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Audit Finding Lookup View
+      '@languagecode': 1033

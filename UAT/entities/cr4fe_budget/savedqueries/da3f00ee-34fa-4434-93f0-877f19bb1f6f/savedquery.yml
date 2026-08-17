@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{da3f00ee-34fa-4434-93f0-877f19bb1f6f}'
+  layoutxml:
+    grid:
+      '@name': cr4fe_budgets
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': cr4fe_budget
+        '@id': cr4fe_budgetid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_budget
+        attribute:
+        - '@name': cr4fe_budgetid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        order:
+          '@attribute': cr4fe_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Budget Associated View
+      '@languagecode': 1033

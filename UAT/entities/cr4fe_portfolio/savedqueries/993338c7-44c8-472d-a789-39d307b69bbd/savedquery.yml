@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{993338c7-44c8-472d-a789-39d307b69bbd}'
+  layoutxml:
+    grid:
+      '@name': cr4fe_portfolios
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': cr4fe_portfolio
+        '@id': cr4fe_portfolioid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_portfolio
+        attribute:
+        - '@name': cr4fe_portfolioid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        order:
+          '@attribute': cr4fe_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Portfolio Associated View
+      '@languagecode': 1033

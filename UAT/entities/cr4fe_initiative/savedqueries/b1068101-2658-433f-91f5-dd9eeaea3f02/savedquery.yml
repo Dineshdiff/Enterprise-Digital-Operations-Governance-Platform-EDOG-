@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{b1068101-2658-433f-91f5-dd9eeaea3f02}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_initiativeid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_initiative
+        attribute:
+        - '@name': cr4fe_initiativeid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        order:
+          '@attribute': cr4fe_name
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Initiative Advanced Find View
+      '@languagecode': 1033

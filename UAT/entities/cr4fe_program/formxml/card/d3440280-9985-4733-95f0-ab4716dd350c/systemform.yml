@@ -1,0 +1,159 @@
+systemform:
+  formid: '{d3440280-9985-4733-95f0-ab4716dd350c}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@name': general
+        '@verticallayout': true
+        '@id': '{f789e46d-959a-40ff-8929-c57a466c02b9}'
+        '@IsUserDefined': 0
+        labels:
+          label:
+            '@description': ''
+            '@languagecode': 1033
+        columns:
+          column:
+          - '@width': 25%
+            sections:
+              section:
+                '@name': ColorStrip
+                '@showlabel': false
+                '@showbar': false
+                '@columns': 1
+                '@IsUserDefined': 0
+                '@id': '{5bd91326-f1b1-4d82-83ee-192dacc21365}'
+                labels:
+                  label:
+                    '@description': ColorStrip
+                    '@languagecode': 1033
+          - '@width': 75%
+            sections:
+              section:
+              - '@name': CardHeader
+                '@showlabel': false
+                '@showbar': false
+                '@columns': 111
+                '@id': '{22792838-3bbf-4168-8714-a18400ccd367}'
+                '@IsUserDefined': 0
+                labels:
+                  label:
+                    '@description': Header
+                    '@languagecode': 1033
+                rows:
+                  row:
+                    cell:
+                    - '@id': '{30ee3cd8-ba0f-4989-9809-ea1b209a20b5}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': Status Reason
+                          '@languagecode': 1033
+                      control:
+                        '@id': statuscode
+                        '@classid': '{5D68B988-0661-4db2-BC3E-17598AD3BE6C}'
+                        '@datafieldname': statuscode
+                        '@disabled': false
+                    - '@id': '{a8b6e0d3-052a-4dc9-ac64-481bd988a042}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1033
+                    - '@id': '{6888e0e4-9ffe-4dc7-8917-42cbe5ff1ee3}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1033
+              - '@name': CardDetails
+                '@showlabel': false
+                '@showbar': false
+                '@columns': 1
+                '@id': '{bfccf7ba-4c9f-401a-9d3b-b85645e99207}'
+                '@IsUserDefined': 0
+                labels:
+                  label:
+                    '@description': Details
+                    '@languagecode': 1033
+                rows:
+                  row:
+                    cell:
+                      '@id': '{6e321630-812f-49f4-a55d-9e732a3cd5de}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': Program Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                        '@disabled': false
+              - '@name': CardFooter
+                '@showlabel': false
+                '@columns': 1111
+                '@showbar': false
+                '@id': '{fd8eb3e9-9b25-4906-9ae0-37370d46caeb}'
+                '@IsUserDefined': 0
+                labels:
+                  label:
+                    '@description': Footer
+                    '@languagecode': 1033
+                rows:
+                  row:
+                    cell:
+                    - '@id': '{fa777b08-a4bb-421d-92bd-e6ae105e2c26}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                        '@disabled': false
+                    - '@id': '{1082fc57-9bfa-45dc-8a01-b8131a0fee50}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': Created On
+                          '@languagecode': 1033
+                      control:
+                        '@id': createdon
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': createdon
+                        '@disabled': false
+                    - '@id': '{efb521a4-fea6-4351-866d-cce18e0b23f4}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1033
+                    - '@id': '{b7d2349c-16ae-451c-8292-a35ad690743f}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1033
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A card form for this entity.
+      '@languagecode': 1033

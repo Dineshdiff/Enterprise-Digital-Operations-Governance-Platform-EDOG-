@@ -1,0 +1,170 @@
+systemform:
+  formid: '{ba107c19-49f9-4118-915b-115358a7b8fd}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{b90f472f-d7e1-478a-94e5-516bcee2d06b}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{9f1f8ece-b765-4321-a21b-35962a02b520}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{900dc05d-60f9-4624-82ba-aba831606f1b}'
+                      labels:
+                        label:
+                          '@description': Benefit Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{ef38c565-4121-4ef5-935b-01364bc5b340}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{c989c0e2-3900-42d6-a8d2-64cb1df2b533}'
+                      labels:
+                        label:
+                          '@description': Benefit Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_benefit_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_benefit_name
+                  - cell:
+                      '@id': '{d787f8cc-3468-451c-82c4-c82dd8d24c57}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{06191de0-32b3-400f-b146-de0c27227b6f}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{d6ab4ab5-c573-4883-bb2a-a3dac9f577ce}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{d8901171-89dd-4e1c-a237-d5ec74748258}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{0339f12a-2601-4787-8e08-24a2044a215a}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{e28f1c69-5493-4bbe-9e64-fb6cf08a6f18}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{b3a04cad-1cff-4f57-9894-acbc9aa7858b}'
+                      labels:
+                        label:
+                          '@description': Project
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_project
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_project
+                  - cell:
+                      '@id': '{19b2b661-0c85-4d86-a98d-02f3b0625a85}'
+                      labels:
+                        label:
+                          '@description': Benefit Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_benefit_type
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_benefit_type
+                  - cell:
+                      '@id': '{946a0b81-f093-47c4-a8ac-8a191ae48282}'
+                      labels:
+                        label:
+                          '@description': Expected Value
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_expected_value
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_expected_value
+                  - cell:
+                      '@id': '{58f92ba1-bc08-40d3-89d2-e98ecb0b0fd2}'
+                      labels:
+                        label:
+                          '@description': Realized Value
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_realized_value
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_realized_value
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

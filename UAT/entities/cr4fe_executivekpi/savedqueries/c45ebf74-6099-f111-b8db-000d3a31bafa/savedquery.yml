@@ -1,0 +1,48 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{c45ebf74-6099-f111-b8db-000d3a31bafa}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_executivekpiid
+        cell:
+        - '@name': cr4fe_kpi_name
+          '@width': 100
+        - '@name': cr4fe_current_value
+          '@width': 119
+        - '@name': cr4fe_target_value
+          '@width': 111
+        - '@name': statecode
+          '@width': 100
+        - '@name': cr4fe_last_refresh
+          '@width': 112
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@output-format': xml-platform
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_executivekpi
+        attribute:
+        - '@name': cr4fe_executivekpiid
+        - '@name': cr4fe_kpi_name
+        - '@name': cr4fe_current_value
+        - '@name': cr4fe_target_value
+        - '@name': statecode
+        - '@name': cr4fe_last_refresh
+  IntroducedVersion: 1.0.0.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': EDOG Executive KPI
+      '@languagecode': 1033

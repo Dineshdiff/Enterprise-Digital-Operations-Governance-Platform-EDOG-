@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{7bfdd06f-4cc8-4e1d-b4ae-1613e11c942b}'
+  layoutxml:
+    grid:
+      '@name': cr4fe_executivereports
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr4fe_executivereport
+        '@id': cr4fe_executivereportid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_executivereport
+        attribute:
+        - '@name': cr4fe_executivereportid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Executive Report Lookup View
+      '@languagecode': 1033

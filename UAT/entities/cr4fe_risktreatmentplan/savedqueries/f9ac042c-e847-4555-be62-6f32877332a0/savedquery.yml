@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{f9ac042c-e847-4555-be62-6f32877332a0}'
+  layoutxml:
+    grid:
+      '@name': cr4fe_risktreatmentplans
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr4fe_risktreatmentplan
+        '@id': cr4fe_risktreatmentplanid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_risktreatmentplan
+        attribute:
+        - '@name': cr4fe_risktreatmentplanid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Risk Treatment Plan Lookup View
+      '@languagecode': 1033

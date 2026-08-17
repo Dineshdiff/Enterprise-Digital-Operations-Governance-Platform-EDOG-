@@ -1,0 +1,51 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{e9ab1f87-5299-f111-b8db-000d3a31bafa}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_incidentid
+        cell:
+        - '@name': cr4fe_incident_number
+          '@width': 136
+        - '@name': statecode
+          '@width': 100
+        - '@name': ownerid
+          '@width': 100
+        - '@name': cr4fe_business_unit_ref
+          '@width': 142
+        - '@name': createdon
+          '@width': 105
+        - '@name': modifiedon
+          '@width': 113
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@output-format': xml-platform
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_incident
+        attribute:
+        - '@name': cr4fe_incidentid
+        - '@name': cr4fe_incident_number
+        - '@name': statecode
+        - '@name': ownerid
+        - '@name': cr4fe_business_unit_ref
+        - '@name': createdon
+        - '@name': modifiedon
+  IntroducedVersion: 1.0.0.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': EDOG - Active Incidents
+      '@languagecode': 1033

@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{be2e9f96-cec9-414e-8478-324dbf6f0c00}'
+  layoutxml:
+    grid:
+      '@name': cr4fe_objectives
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr4fe_objective
+        '@id': cr4fe_objectiveid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_objective
+        attribute:
+        - '@name': cr4fe_objectiveid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Objective Lookup View
+      '@languagecode': 1033

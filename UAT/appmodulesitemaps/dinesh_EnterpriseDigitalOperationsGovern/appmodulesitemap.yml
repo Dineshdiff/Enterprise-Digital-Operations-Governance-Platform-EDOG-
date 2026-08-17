@@ -1,0 +1,272 @@
+AppModuleSiteMap:
+  SiteMapUniqueName: dinesh_EnterpriseDigitalOperationsGovern
+  EnableCollapsibleGroups: True
+  ShowHome: True
+  ShowPinned: True
+  ShowRecents: True
+  SiteMap:
+    '@IntroducedVersion': 7.0.0.0
+    Area:
+      '@Id': area_837b5669
+      '@ResourceId': SitemapDesigner.NewTitle
+      '@DescriptionResourceId': SitemapDesigner.NewTitle
+      '@ShowGroups': true
+      '@IntroducedVersion': 7.0.0.0
+      Titles:
+        Title:
+          '@LCID': 1033
+          '@Title': All
+      Group:
+      - '@Id': group_739b424b
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Executive
+        SubArea:
+        - '@Id': subarea_11250728
+          '@ResourceId': SitemapDesigner.NewSubArea
+          '@VectorIcon': /_imgs/TableIconsFluentV9/document_one_page_sparkle.svg
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          '@GenPageId': 06996673-fc4f-465c-b094-bc84617c4981
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': EDOG Executive Command Center KPI
+        - '@Id': subarea_420c3642
+          '@DescriptionResourceId': Dashboards_Description
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Url': /workplace/home_dashboards.aspx
+          '@DefaultDashboard': 9f1aaff2-6099-f111-b8db-000d3a31bafa
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          '@ToolTipResourseId': DashboardTooltip
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': EDOG Executive KPI Dashboard `
+        - '@Id': subarea_e14899dd
+          '@DescriptionResourceId': Dashboards_Description
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Url': /workplace/home_dashboards.aspx
+          '@DefaultDashboard': f5d939d0-5699-f111-b8db-000d3a31bafa
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          '@ToolTipResourseId': DashboardTooltip
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': EDOG Executive Command Center
+        - '@Id': subarea_56902492
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_executivereport
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_94cb66ce
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_aiinsight
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+      - '@Id': group_b6d45904
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Operations
+        SubArea:
+        - '@Id': subarea_8e643efe
+          '@DescriptionResourceId': Dashboards_Description
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Url': /workplace/home_dashboards.aspx
+          '@DefaultDashboard': fad56c25-5799-f111-b8db-000d3a31bafa
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          '@ToolTipResourseId': DashboardTooltip
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': EDOG Operations Health Dashboard
+        - '@Id': subarea_312f2649
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_incident
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_f89921a2
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_problem
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_4130a2cc
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_asset
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_1016260c
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_server
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_838d7c31
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_database
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_f88a356a
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_application
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+      - '@Id': group_a80b7d06
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Governance
+        SubArea:
+        - '@Id': subarea_b2b1e442
+          '@DescriptionResourceId': Dashboards_Description
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Url': /workplace/home_dashboards.aspx
+          '@DefaultDashboard': 17dd866a-5799-f111-b8db-000d3a31bafa
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          '@ToolTipResourseId': DashboardTooltip
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': EDOG Governance Dashboard
+        - '@Id': subarea_30bdc815
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_complianceassessment
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_38f4139c
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_riskregister
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_e02e9027
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_auditfinding
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_f28f39e5
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_policy
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+      - '@Id': group_7e8bb32a
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': PMO
+        SubArea:
+        - '@Id': subarea_3d878997
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_project
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_ff11f7c5
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_program
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_1604afcb
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_portfolio
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+      - '@Id': group_c7f63f60
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Administration
+        SubArea:
+        - '@Id': subarea_14866268
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': cr4fe_integrationlog
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_7f3577aa
+          '@ResourceId': SitemapDesigner.NewSubArea
+          '@VectorIcon': /_imgs/TableIconsFluentV9/document_one_page_sparkle.svg
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          '@GenPageId': a9d67f7a-5bb9-4f06-93cb-5b46b8dd62b2
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': EDOG Executive Dashboard
+  LocalizedNames:
+    LocalizedName:
+      '@description': Enterprise Digital Operations & Governance Platform(EDOG)
+      '@languagecode': 1033

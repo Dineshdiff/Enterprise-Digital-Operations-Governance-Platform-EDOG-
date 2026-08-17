@@ -1,0 +1,170 @@
+systemform:
+  formid: '{53cdc49a-d6b4-461f-a5cf-4294422ec0bc}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{a3a1d4b2-4da2-4e6d-8447-6209c056acf3}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{7292dc70-0ed2-4dc5-ad88-8c6b5bf9cb82}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{8459eadd-86d6-47d7-88d3-6a46a7057212}'
+                      labels:
+                        label:
+                          '@description': Vendor Review Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{284fe598-f8d0-42dd-8644-c249f997aedd}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{236e8865-29c2-45d2-8fbb-681c284393d4}'
+                      labels:
+                        label:
+                          '@description': Review Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_review_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_review_name
+                  - cell:
+                      '@id': '{78ad6187-49d7-446f-a86d-be7b16cd224d}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{1939cd28-09b0-4ab6-ae8b-0a5e6abcc6fc}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{c91967d8-7589-410f-b707-19495bea7014}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{4a20150d-ba43-46cf-a5b2-748c1772ea74}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{90dd5360-a86e-4897-a120-6650d046357a}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{44883850-7d7c-4184-ac4f-e63e694dc781}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{ea9aaa5a-84d6-435d-a494-16fa80346c57}'
+                      labels:
+                        label:
+                          '@description': Vendor
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_vendor
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_vendor
+                  - cell:
+                      '@id': '{10267362-5048-40e7-a58e-a25669206ea8}'
+                      labels:
+                        label:
+                          '@description': Review Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_review_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_review_date
+                  - cell:
+                      '@id': '{eea1f6b0-b0d2-4021-a346-ec7c22591ee6}'
+                      labels:
+                        label:
+                          '@description': Performance Score
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_performance_score
+                        '@classid': '{c3efe0c3-0ec6-42be-8349-cbd9079dfd8e}'
+                        '@datafieldname': cr4fe_performance_score
+                  - cell:
+                      '@id': '{0f60e286-d37c-49de-a31a-6984c1803549}'
+                      labels:
+                        label:
+                          '@description': Review Outcome
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_review_outcome
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_review_outcome
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

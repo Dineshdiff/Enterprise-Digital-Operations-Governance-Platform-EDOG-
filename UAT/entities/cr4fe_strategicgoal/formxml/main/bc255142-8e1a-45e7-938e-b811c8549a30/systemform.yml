@@ -1,0 +1,160 @@
+systemform:
+  formid: '{bc255142-8e1a-45e7-938e-b811c8549a30}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{a8461a49-5b6e-4c57-80b3-644912437783}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{89c28cd3-634d-45ee-afd9-af3e2cfe3b7c}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{47ec10c4-fa43-4a44-b23b-d275534ce345}'
+                      labels:
+                        label:
+                          '@description': Strategic Goal Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{52ac0f55-b066-4975-8d4a-60cfc55fda1e}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{f695c7f5-6c91-4587-80ac-680bfdd0f7f3}'
+                      labels:
+                        label:
+                          '@description': Goal Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_goal_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_goal_name
+                  - cell:
+                      '@id': '{1209d0f3-bd56-44c8-bde9-1b2968448894}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{2f786a88-d388-4c92-a5a5-91af83a7ae2d}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{b123a736-3a64-4ffa-a9a8-f7152409a7ea}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{129ee4e2-ba9c-4854-a2a9-626faba5f98d}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{922a1a8b-28ee-4f07-b443-5a94ad88905b}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{038425a4-22ee-45c4-9ed8-8863d3e236ec}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{49a155b4-6de0-45a0-beaf-3b29609be300}'
+                      labels:
+                        label:
+                          '@description': Goal Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_goal_owner
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_goal_owner
+                  - cell:
+                      '@id': '{c9546b30-ceda-44a4-a561-728e2015f05a}'
+                      labels:
+                        label:
+                          '@description': Target Year
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_target_year
+                        '@classid': '{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}'
+                        '@datafieldname': cr4fe_target_year
+                  - cell:
+                      '@id': '{628400b9-5de4-4fd8-b5f4-75eb098867a5}'
+                      labels:
+                        label:
+                          '@description': Progress Percent
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_progress_percent
+                        '@classid': '{c3efe0c3-0ec6-42be-8349-cbd9079dfd8e}'
+                        '@datafieldname': cr4fe_progress_percent
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

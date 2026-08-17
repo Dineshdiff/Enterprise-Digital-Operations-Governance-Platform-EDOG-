@@ -1,0 +1,79 @@
+MissingDependencies:
+  MissingDependency:
+  - Required:
+      '@type': 1
+      '@schemaName': application
+      '@displayName': Application
+      '@solution': msft_RoleBasedAccessControl (1.09.0.0)
+      package:
+        '@appName': Authorization Package
+        '@version': 1.7.0.0
+        '#text': msft_PrivilegeChecker (1.7.0.0)
+    Dependent:
+      '@type': 80
+      '@schemaName': dinesh_EnterpriseDigitalOperationsGovern
+      '@displayName': Enterprise Digital Operations & Governance Platform(EDOG)
+  - Required:
+      '@type': 61
+      '@schemaName': msdyn_/Images/AppModule_Default_Icon.png
+      '@displayName': msdyn_/Images/AppModule_Default_Icon.png
+      '@solution': AppModuleWebResources (2.5)
+      package:
+        '@appName': AppModule Web Resources Package
+        '@version': 2.5
+        '#text': AppModuleWebResources (2.5)
+    Dependent:
+      '@type': 80
+      '@schemaName': dinesh_EnterpriseDigitalOperationsGovern
+      '@displayName': Enterprise Digital Operations & Governance Platform(EDOG)
+  - Required:
+      '@type': MCPServer
+      '@displayName': dinesh_EnterpriseDigitalOperationsGovern_MCPServer
+      '@solution': Active
+      '@id.name': dinesh_EnterpriseDigitalOperationsGovern_MCPServer
+    Dependent:
+      '@type': AppElement
+      '@displayName': dinesh_dinesh_EnterpriseDigitalOperationsGovern_name_dinesh_EnterpriseDigitalOperationsGovern_MCPServer
+      '@id.uniquename': dinesh_dinesh_EnterpriseDigitalOperationsGovern_name_dinesh_EnterpriseDigitalOperationsGovern_MCPServer
+  - Required:
+      '@type': SettingDefinition
+      '@displayName': AppChannel
+      '@solution': msdyn_AppFrameworkInfraExtensions (1.0.0.19)
+      '@id.uniquename': AppChannel
+      package:
+        '@appName': PowerAppsAppFramework Package
+        '@version': 1.0.0.25
+        '#text': PowerAppsAppFramework_Anchor (1.0.0.25)
+    Dependent:
+      '@type': AppSetting
+      '@displayName': parentappmoduleid.uniquename=dinesh_EnterpriseDigitalOperationsGovern,settingdefinitionid.uniquename=AppChannel
+      '@id.parentappmoduleid.uniquename': dinesh_EnterpriseDigitalOperationsGovern
+      '@id.settingdefinitionid.uniquename': AppChannel
+  - Required:
+      '@type': SettingDefinition
+      '@displayName': m365copilotmodelappenabled
+      '@solution': msdyn_M365CopilotAppInfraSettings (9.2.0.5)
+      '@id.uniquename': m365copilotmodelappenabled
+      package:
+        '@appName': PowerAppsAppCopilotApp Package
+        '@version': 9.2.0.5
+        '#text': msdyn_M365CopilotAppInfraSettings (9.2.0.5)
+    Dependent:
+      '@type': AppSetting
+      '@displayName': parentappmoduleid.uniquename=dinesh_EnterpriseDigitalOperationsGovern,settingdefinitionid.uniquename=m365copilotmodelappenabled
+      '@id.parentappmoduleid.uniquename': dinesh_EnterpriseDigitalOperationsGovern
+      '@id.settingdefinitionid.uniquename': m365copilotmodelappenabled
+  - Required:
+      '@type': uxagentproject
+      '@solution': Active
+      '@id': '{06996673-fc4f-465c-b094-bc84617c4981}'
+    Dependent:
+      '@type': 62
+      '@schemaName': dinesh_EnterpriseDigitalOperationsGovern
+  - Required:
+      '@type': uxagentproject
+      '@solution': Active
+      '@id': '{a9d67f7a-5bb9-4f06-93cb-5b46b8dd62b2}'
+    Dependent:
+      '@type': 62
+      '@schemaName': dinesh_EnterpriseDigitalOperationsGovern

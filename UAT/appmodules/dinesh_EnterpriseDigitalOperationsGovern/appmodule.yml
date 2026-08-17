@@ -1,0 +1,88 @@
+AppModule:
+  UniqueName: dinesh_EnterpriseDigitalOperationsGovern
+  IntroducedVersion: 1.0.0.0
+  WebResourceId: 953b9fac-1e5e-e611-80d6-00155ded156f
+  OptimizedFor: ''
+  statecode: 0
+  statuscode: 1
+  FormFactor: 1
+  ClientType: 4
+  NavigationType: 0
+  AppModuleComponents:
+    AppModuleComponent:
+    - '@type': 1
+      '@schemaName': cr4fe_executivekpi
+    - '@type': 1
+      '@schemaName': cr4fe_auditfinding
+    - '@type': 1
+      '@schemaName': cr4fe_riskregister
+    - '@type': 1
+      '@schemaName': cr4fe_portfolio
+    - '@type': 1
+      '@schemaName': cr4fe_program
+    - '@type': 1
+      '@schemaName': cr4fe_project
+    - '@type': 1
+      '@schemaName': cr4fe_incident
+    - '@type': 1
+      '@schemaName': cr4fe_problem
+    - '@type': 1
+      '@schemaName': cr4fe_aiinsight
+    - '@type': 1
+      '@schemaName': cr4fe_executivereport
+    - '@type': 1
+      '@schemaName': cr4fe_integrationlog
+    - '@type': 1
+      '@schemaName': cr4fe_recommendation
+    - '@type': 1
+      '@schemaName': cr4fe_server
+    - '@type': 1
+      '@schemaName': cr4fe_policy
+    - '@type': 1
+      '@schemaName': cr4fe_asset
+    - '@type': 1
+      '@schemaName': cr4fe_complianceassessment
+    - '@type': 1
+      '@schemaName': cr4fe_application
+    - '@type': 1
+      '@schemaName': cr4fe_database
+    - '@type': 1
+      '@schemaName': application
+    - '@type': 60
+      '@id': '{f5d939d0-5699-f111-b8db-000d3a31bafa}'
+    - '@type': 60
+      '@id': '{fad56c25-5799-f111-b8db-000d3a31bafa}'
+    - '@type': 60
+      '@id': '{17dd866a-5799-f111-b8db-000d3a31bafa}'
+    - '@type': 60
+      '@id': '{9f1aaff2-6099-f111-b8db-000d3a31bafa}'
+    - '@type': 62
+      '@schemaName': dinesh_EnterpriseDigitalOperationsGovern
+  AppModuleRoleMaps:
+    Role:
+    - '@id': '{627090ff-40a3-4053-8790-584edc5be201}'
+    - '@id': '{119f245c-3cc8-4b62-b31c-d1a046ced15d}'
+  LocalizedNames:
+    LocalizedName:
+      '@description': Enterprise Digital Operations & Governance Platform(EDOG)
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': Streamline enterprise operations and governance by enabling users to monitor assets, assess compliance, manage risks, and oversee projects in a unified platform. Empower decision-makers with actionable insights and comprehensive dashboards for enhanced operational visibility and control.
+      '@languagecode': 1033
+  appelements:
+    appelement:
+      '@uniquename': dinesh_dinesh_EnterpriseDigitalOperationsGovern_name_dinesh_EnterpriseDigitalOperationsGovern_MCPServer
+      iscustomizable: 1
+      name: Enterprise Digital Operations & Governance Platform(EDOG) MCP Server
+      objectid:
+        name: dinesh_EnterpriseDigitalOperationsGovern_MCPServer
+      objectidtype: mcpserver
+  appsettings:
+    appsetting:
+    - '@settingdefinitionid.uniquename': AppChannel
+      iscustomizable: 1
+      value: 1
+    - '@settingdefinitionid.uniquename': m365copilotmodelappenabled
+      iscustomizable: 1
+      value: 2

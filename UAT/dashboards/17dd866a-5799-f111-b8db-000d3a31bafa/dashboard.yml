@@ -1,0 +1,182 @@
+Dashboard:
+  LocalizedNames:
+    LocalizedName:
+      '@description': EDOG Governance Dashboard
+      '@languagecode': 1033
+  FormId: '{17dd866a-5799-f111-b8db-000d3a31bafa}'
+  IsCustomizable: 1
+  IsDefault: 0
+  FormXml:
+    forms:
+      '@type': dashboard
+      form:
+        tabs:
+          tab:
+            '@showlabel': false
+            '@verticallayout': true
+            '@id': '{6e714013-d0b9-4220-9042-c3ca2df9341b}'
+            labels:
+              label:
+                '@description': Tab
+                '@languagecode': 1033
+            columns:
+              column:
+                '@width': 100%
+                sections:
+                  section:
+                    '@showlabel': false
+                    '@showbar': false
+                    '@columns': 1111
+                    '@id': '{d0e4f03d-eb5f-4aa6-840d-1d2ec890c225}'
+                    labels:
+                      label:
+                        '@description': Section
+                        '@languagecode': 1033
+                    rows:
+                      row:
+                      - cell:
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{3f794dd5-5ee3-460a-b4fb-7ad3e0c07430}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Compliance Assessments
+                              '@languagecode': 1033
+                          control:
+                            '@id': Componentdca574d
+                            '@uniqueid': '{8d3bab23-7017-62db-52e7-63953b717e37}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_complianceassessment
+                              ChartGridMode: Grid
+                              EnableQuickFind: true
+                              EnableViewPicker: true
+                              EnableJumpBar: true
+                              RecordsPerPage: 8
+                              HeaderColorCode: 
+                              ViewId: '{8DC9C430-5199-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: 
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{2a30700e-b68f-4e45-91e0-e2c8dcb69e8a}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Compliance Assessment
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component684987b
+                            '@uniqueid': '{4aa7e48a-cb31-d5ee-468b-0266cb8021e2}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_complianceassessment
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{8DC9C430-5199-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{E0E3A3F3-1BA3-421D-AB1C-1DD2B0E30002}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - cell:
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{3c9f29c1-c24f-4e5c-ac43-1cb649c95ea8}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Risk Registers
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component3fc8aa2
+                            '@uniqueid': '{03a4ee85-859e-b6e5-21d0-a418e1c9aa66}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_riskregister
+                              ChartGridMode: Grid
+                              EnableQuickFind: true
+                              EnableViewPicker: true
+                              EnableJumpBar: true
+                              RecordsPerPage: 8
+                              HeaderColorCode: 
+                              ViewId: '{2EDDDCA9-5199-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: 
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{307c7791-7905-4b2d-a110-33973c6f1add}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Risk Register
+                              '@languagecode': 1033
+                          control:
+                            '@id': Componenta1d5696
+                            '@uniqueid': '{8599be16-96cd-8015-ce67-0bce9e9126ab}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_riskregister
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{2EDDDCA9-5199-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{C76E5647-7B19-4C4F-8F58-9E296FEF06C0}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+  IntroducedVersion: 1.0.0.0
+  IsTabletEnabled: 0

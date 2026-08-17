@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{72f6ea4f-e84d-41c8-b6ce-cae64b3b4bd2}'
+  layoutxml:
+    grid:
+      '@name': cr4fe_employees
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': cr4fe_employee
+        '@id': cr4fe_employeeid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_employee
+        attribute:
+        - '@name': cr4fe_employeeid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Employee Lookup View
+      '@languagecode': 1033

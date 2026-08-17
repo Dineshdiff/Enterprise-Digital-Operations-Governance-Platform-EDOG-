@@ -1,0 +1,170 @@
+systemform:
+  formid: '{64dd26bd-ce38-44a7-a0d8-cf3922778638}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{b101a55b-d711-42ad-bd5f-b13aa06238fc}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{fe300d07-d4c4-43c7-8a5d-55a22c05c67b}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{07315591-b44f-49fb-8c11-c61ff58c39a4}'
+                      labels:
+                        label:
+                          '@description': Employee Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{7400733e-1f9e-4297-927a-06326fcaac58}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{f73820e6-914c-4b84-9fa5-db6404140c63}'
+                      labels:
+                        label:
+                          '@description': Employee Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_employee_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_employee_name
+                  - cell:
+                      '@id': '{77290c6e-828c-4ada-a61a-02a6af619ddb}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{e683fcb6-f1fa-4bf6-ae59-9a4d8d11e108}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{06147ab1-7f7d-4022-9f56-5d2d9c221258}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{30cff817-ea3c-4518-b101-4ddb40776f2b}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{60e07daa-f3de-4855-9600-aa3b87f7b7b4}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{261fb2e7-3c49-4bf4-901d-7047fd17155a}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{f9c36960-7414-416b-b2b8-6c05628cefde}'
+                      labels:
+                        label:
+                          '@description': Email
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_email
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_email
+                  - cell:
+                      '@id': '{c40d16d8-1781-4fb9-8086-e19ae1a2d82b}'
+                      labels:
+                        label:
+                          '@description': Department
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_department
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_department
+                  - cell:
+                      '@id': '{758df06f-dc29-4394-8792-ee714007fc8f}'
+                      labels:
+                        label:
+                          '@description': Role
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_role
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_role
+                  - cell:
+                      '@id': '{24f3dc66-c941-4cfd-beb7-fd2b999f231a}'
+                      labels:
+                        label:
+                          '@description': Manager
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_manager
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_manager
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033
