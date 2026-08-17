@@ -1,0 +1,170 @@
+systemform:
+  formid: '{d897fb8c-2e88-48a6-8d7c-b92310916048}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{405d7b91-e11f-407b-a021-64379b66c73f}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{7818c693-f01b-48fd-b8e3-0d18f6bb33a8}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{e0836ff8-2745-406c-a1d6-466374e9e9c0}'
+                      labels:
+                        label:
+                          '@description': Recommendation Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{f53a4f9a-111b-4c66-b729-498071a3c6a8}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{5d61dd22-35ef-461d-9781-9cfee0e658f3}'
+                      labels:
+                        label:
+                          '@description': Recommendation Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_recommendation_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_recommendation_name
+                  - cell:
+                      '@id': '{2ae89168-2036-4d1e-afec-76b7c14f1ffe}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{e05d1431-97ba-4e14-98f1-0f8945f8599f}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{8b268335-179d-4916-b24b-0e9dfa034553}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{6a7c9b8f-89a3-4bf8-b354-46396e76feb6}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{544a5f0c-cdaf-4861-ab54-bb613e52fc5d}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{e6c88ba0-041c-4098-b0e4-de266f8ed00b}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{fdb8e5c9-84f4-4531-aa30-04bb0ca27eb0}'
+                      labels:
+                        label:
+                          '@description': Insight
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_insight
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_insight
+                  - cell:
+                      '@id': '{931ab513-0c44-480a-968e-d2d2eb440777}'
+                      labels:
+                        label:
+                          '@description': Recommendation Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_recommendation_type
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_recommendation_type
+                  - cell:
+                      '@id': '{e925bf72-1984-48a4-be62-38e1cdb8776b}'
+                      labels:
+                        label:
+                          '@description': Estimated Saving
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_estimated_saving
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_estimated_saving
+                  - cell:
+                      '@id': '{cb341a63-d17d-45a8-980f-b6cebaf3b391}'
+                      labels:
+                        label:
+                          '@description': Priority
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_priority
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_priority
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

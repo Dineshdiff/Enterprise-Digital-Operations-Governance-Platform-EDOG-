@@ -1,0 +1,99 @@
+attribute:
+  '@PhysicalName': cr4fe_Severity
+  Type: picklist
+  Name: cr4fe_severity
+  LogicalName: cr4fe_severity
+  RequiredLevel: required
+  DisplayMask: ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0.0.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  AppDefaultValue: -1
+  optionset:
+    '@Name': cr4fe_incidents_cr4fe_severity
+    OptionSetType: picklist
+    IntroducedVersion: 1.0.0.0
+    IsCustomizable: 1
+    ExternalTypeName: ''
+    displaynames:
+      displayname:
+        '@description': Severity
+        '@languagecode': 1033
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+    options:
+      option:
+      - '@value': 477280000
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': 1-Critical
+            '@languagecode': 1033
+        Descriptions:
+          Description:
+            '@description': ''
+            '@languagecode': 1033
+      - '@value': 477280001
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': 2-High
+            '@languagecode': 1033
+        Descriptions:
+          Description:
+            '@description': ''
+            '@languagecode': 1033
+      - '@value': 477280002
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': 3-Medium
+            '@languagecode': 1033
+        Descriptions:
+          Description:
+            '@description': ''
+            '@languagecode': 1033
+      - '@value': 477280003
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': 4-Low
+            '@languagecode': 1033
+        Descriptions:
+          Description:
+            '@description': ''
+            '@languagecode': 1033
+  displaynames:
+    displayname:
+      '@description': Severity
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': ''
+      '@languagecode': 1033

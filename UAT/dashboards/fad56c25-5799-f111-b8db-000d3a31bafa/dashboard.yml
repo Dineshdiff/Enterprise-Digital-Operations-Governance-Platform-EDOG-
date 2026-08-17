@@ -1,0 +1,182 @@
+Dashboard:
+  LocalizedNames:
+    LocalizedName:
+      '@description': EDOG Operations Health Dashboard
+      '@languagecode': 1033
+  FormId: '{fad56c25-5799-f111-b8db-000d3a31bafa}'
+  IsCustomizable: 1
+  IsDefault: 0
+  FormXml:
+    forms:
+      '@type': dashboard
+      form:
+        tabs:
+          tab:
+            '@showlabel': false
+            '@verticallayout': true
+            '@id': '{4dafc596-e88f-4abe-8bc4-1d3e27a4b2f4}'
+            labels:
+              label:
+                '@description': Tab
+                '@languagecode': 1033
+            columns:
+              column:
+                '@width': 100%
+                sections:
+                  section:
+                    '@showlabel': false
+                    '@showbar': false
+                    '@columns': 1111
+                    '@id': '{4337362a-c9ba-40a3-81cc-aa0840bbfe41}'
+                    labels:
+                      label:
+                        '@description': Section
+                        '@languagecode': 1033
+                    rows:
+                      row:
+                      - cell:
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{7f92c1f5-f703-494a-84df-caf306a8ce96}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Incidents
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component7b1f418
+                            '@uniqueid': '{191c283c-ca0d-c588-7c02-2281c259323b}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_incident
+                              ChartGridMode: Grid
+                              EnableQuickFind: true
+                              EnableViewPicker: true
+                              EnableJumpBar: true
+                              RecordsPerPage: 8
+                              HeaderColorCode: 
+                              ViewId: '{E9AB1F87-5299-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: 
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{151a1fdd-9a12-48a8-a973-412ab6d55b74}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Incident
+                              '@languagecode': 1033
+                          control:
+                            '@id': Componenta277aa3
+                            '@uniqueid': '{40e00dcc-a252-72e7-4562-2a2aa4855d4d}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_incident
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{E9AB1F87-5299-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{FB68379A-07DD-4ADE-8ED4-C1BD6CFF057C}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - cell:
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{a4d20f8a-20a7-4673-95e0-26be4ee10fba}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Assets
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component1d18d74
+                            '@uniqueid': '{57460497-30d2-caec-b3bd-36519842e9b3}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_asset
+                              ChartGridMode: Grid
+                              EnableQuickFind: true
+                              EnableViewPicker: true
+                              EnableJumpBar: true
+                              RecordsPerPage: 8
+                              HeaderColorCode: 
+                              ViewId: '{D32EAFCE-5099-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: 
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 2
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{074e7790-c67e-4111-9a9a-5f92e19c0dcb}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Asset
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component86b152a
+                            '@uniqueid': '{974daad9-9982-25b4-888a-90d59784961a}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_asset
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{6F7A329D-5099-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{487A9F77-0A63-4724-8CD1-1E7678C47382}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+  IntroducedVersion: 1.0.0.0
+  IsTabletEnabled: 0

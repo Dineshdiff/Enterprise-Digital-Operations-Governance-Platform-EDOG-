@@ -1,0 +1,180 @@
+systemform:
+  formid: '{7737c1ba-697a-4ca8-9ec1-eb2bebf3574d}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{54918cbe-e7a4-40aa-9467-30d833bceb30}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{10b32fe1-5d74-407a-b19b-a12173a32c03}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{161467f8-f90a-4b07-977e-b7bec9f7c09e}'
+                      labels:
+                        label:
+                          '@description': Contract Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{123bcff4-858d-4af6-a8fb-0e4c999fd662}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{69bcee8d-9079-4ada-ba52-f6fd45dd3ab2}'
+                      labels:
+                        label:
+                          '@description': Contract Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_contract_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_contract_name
+                  - cell:
+                      '@id': '{948fb161-c8b7-4b37-913e-ffd9c64f27c6}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{da1b6456-af66-4404-bae3-a81046bbc732}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{d8721551-db44-4989-8624-8ed1eeb1537d}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{02bf91d2-b97a-4776-92d2-651375b00f91}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{4d26fb4a-768c-4357-b2f2-2ca1024fc6fe}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{4efd8e41-a7d6-4c90-a370-d726300a064c}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{583da2d4-66fe-4f3c-b91d-fda771689635}'
+                      labels:
+                        label:
+                          '@description': Vendor
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_vendor
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_vendor
+                  - cell:
+                      '@id': '{8f2fe013-f121-4e81-bfc7-12ab0cb62d1f}'
+                      labels:
+                        label:
+                          '@description': Contract Value
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_contract_value
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_contract_value
+                  - cell:
+                      '@id': '{fc831470-5826-4566-ad46-ecd7b618c309}'
+                      labels:
+                        label:
+                          '@description': Start Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_start_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_start_date
+                  - cell:
+                      '@id': '{a2e4cdc0-d5df-4366-8fa6-80598f8b153d}'
+                      labels:
+                        label:
+                          '@description': End Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_end_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_end_date
+                  - cell:
+                      '@id': '{8e7b56e0-ff9a-4505-af51-237b1e519d68}'
+                      labels:
+                        label:
+                          '@description': Renewal Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_renewal_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_renewal_status
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

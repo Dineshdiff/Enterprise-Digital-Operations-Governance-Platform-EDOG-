@@ -1,0 +1,63 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{d32eafce-5099-f111-b8db-000d3a31bafa}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_assetid
+        cell:
+        - '@name': cr4fe_asset_name
+          '@width': 150
+        - '@name': cr4fe_asset_type
+          '@width': 150
+        - '@name': cr4fe_criticality
+          '@width': 150
+        - '@name': cr4fe_lifecycle_stage
+          '@width': 150
+        - '@name': cr4fe_department
+          '@width': 150
+        - '@name': cr4fe_replacement_cost
+          '@width': 150
+        - '@name': cr4fe_status
+          '@width': 150
+        - '@name': ownerid
+          '@width': 100
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      '@distinct': true
+      entity:
+        '@name': cr4fe_asset
+        attribute:
+        - '@name': cr4fe_assetid
+        - '@name': cr4fe_asset_name
+        - '@name': cr4fe_status
+        - '@name': cr4fe_asset_type
+        - '@name': cr4fe_department
+        - '@name': cr4fe_criticality
+        - '@name': cr4fe_lifecycle_stage
+        - '@name': cr4fe_replacement_cost
+        - '@name': ownerid
+        filter:
+          '@type': and
+          condition:
+            '@attribute': cr4fe_criticality
+            '@operator': eq
+            '@value': 100000003
+  IntroducedVersion: 1.0.0.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': EDOG - Critical Assets
+      '@languagecode': 1033

@@ -1,0 +1,160 @@
+systemform:
+  formid: '{72d40c75-c8de-4d15-adad-8d18733d22cd}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{93f4601a-150d-45a5-9c17-69fa0ee65dcd}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{ad80215a-e115-4874-bf38-7dad65663924}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{f8c8cbdb-6f26-4889-b433-013e44bd5bea}'
+                      labels:
+                        label:
+                          '@description': Risk Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{6235849b-f2ea-4974-a5e2-39685892c209}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{f17da06a-4004-42c7-9a66-26bf1493c6e5}'
+                      labels:
+                        label:
+                          '@description': Risk Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_risk_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_risk_owner_name
+                  - cell:
+                      '@id': '{b70ce66d-f976-4207-82ba-5191ae0e79e3}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{107276bf-f743-498a-a295-5abb52a22564}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{9bef4622-6da8-4699-9214-29e1dcc4be84}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{d05afe90-3b78-4efa-a590-c19dcd6ce2c7}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{5c1440a4-c0ea-4533-90a8-66e026cdf026}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{a981376b-ac62-409b-b9b4-bc7fea73add9}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{ae3fbd4f-f17f-4df4-b4d6-9bcfdc4caeed}'
+                      labels:
+                        label:
+                          '@description': Risk
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_risk
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_risk
+                  - cell:
+                      '@id': '{3db9fc94-a0ab-42de-8c6b-b34716de8464}'
+                      labels:
+                        label:
+                          '@description': Owner Department
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_department
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_owner_department
+                  - cell:
+                      '@id': '{afc591fd-113e-4eff-a47d-bf83e32d963e}'
+                      labels:
+                        label:
+                          '@description': Ownership Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_ownership_type
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_ownership_type
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

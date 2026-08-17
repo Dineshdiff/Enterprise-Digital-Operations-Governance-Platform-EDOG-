@@ -1,0 +1,170 @@
+systemform:
+  formid: '{bb022278-2fb7-4c68-877a-443952584742}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{221e02a9-43df-49c9-9804-5708c094d058}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{3532ecd4-5ced-445e-b832-513c9a9dbd18}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{5615eda4-4400-442c-89df-f2625ea2205f}'
+                      labels:
+                        label:
+                          '@description': Compliance Assessment Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{08a7bf41-e670-4473-be34-6dcec3fb13b5}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{338fcc35-ef89-4fe2-9d37-5aebf4cb907f}'
+                      labels:
+                        label:
+                          '@description': Assessment Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_assessment_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_assessment_name
+                  - cell:
+                      '@id': '{116324eb-dcfa-4ed9-a781-ef77782b6f73}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{7ab64976-bb27-4c68-b678-da3c40f21ec1}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{116df4ad-52cf-4c14-97dd-2ed14d24dff5}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{4766ea7c-5c69-4e0a-9399-d03f9f0a02ef}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{71c208c1-ec83-4e3c-881e-db7f74b3743e}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{eb7e4f02-3b23-4aec-a3f2-cc6ff9a12320}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{763b3bd7-17fa-4ca5-9442-3916ee57a8f7}'
+                      labels:
+                        label:
+                          '@description': Framework
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_framework
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_framework
+                  - cell:
+                      '@id': '{3666df38-c412-4dad-a2b0-ea78134e959f}'
+                      labels:
+                        label:
+                          '@description': Assessment Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_assessment_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_assessment_date
+                  - cell:
+                      '@id': '{a866b0df-555a-4bad-b595-758ec336d196}'
+                      labels:
+                        label:
+                          '@description': Compliance Score Percent
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_compliance_score_percent
+                        '@classid': '{c3efe0c3-0ec6-42be-8349-cbd9079dfd8e}'
+                        '@datafieldname': cr4fe_compliance_score_percent
+                  - cell:
+                      '@id': '{00943716-5f52-4859-9889-15fd661cda85}'
+                      labels:
+                        label:
+                          '@description': Assessment Result
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_assessment_result
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_assessment_result
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

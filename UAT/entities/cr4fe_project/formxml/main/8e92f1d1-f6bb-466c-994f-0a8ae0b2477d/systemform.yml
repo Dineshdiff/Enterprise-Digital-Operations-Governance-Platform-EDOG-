@@ -1,0 +1,210 @@
+systemform:
+  formid: '{8e92f1d1-f6bb-466c-994f-0a8ae0b2477d}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{575c5b8c-4bda-4641-a3b9-1d66bfa8c3d3}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{7e92a865-6ddd-4051-8be1-2a3816f37ea1}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{5f2fe38b-d209-4e54-9f73-790fa4a411ea}'
+                      labels:
+                        label:
+                          '@description': Project Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{ec58b73a-0033-4735-ada4-3af8b8dffde3}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{a098c057-c139-4c22-99c0-53b3be221afd}'
+                      labels:
+                        label:
+                          '@description': Project Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_project_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_project_name
+                  - cell:
+                      '@id': '{5ba94c2b-0ab3-4c5c-88ef-33ee24ba29c2}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{6f2c5376-c409-4622-a743-e0b90215ddf7}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{1955f1d0-d2b5-4304-8f35-6bb19289cef0}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{a7bb8fd6-ac5c-4367-aaa3-074410770d59}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{41ca1762-01e2-427c-9b6b-c2830237b004}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{3795da22-6a77-4ae7-89ab-43f0eeffe20f}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{0b4da10e-5229-481f-954c-e5b23f865a6d}'
+                      labels:
+                        label:
+                          '@description': Program
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_program
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_program
+                  - cell:
+                      '@id': '{bb5e54b5-c45c-4fa0-9cbc-210e122155de}'
+                      labels:
+                        label:
+                          '@description': Project Manager
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_project_manager
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_project_manager
+                  - cell:
+                      '@id': '{445c49c8-7aca-4602-afee-63be94c8df41}'
+                      labels:
+                        label:
+                          '@description': Start Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_start_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_start_date
+                  - cell:
+                      '@id': '{a11ac87d-7058-4ef1-b08e-0eddaa9be016}'
+                      labels:
+                        label:
+                          '@description': End Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_end_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_end_date
+                  - cell:
+                      '@id': '{91cbec4c-ad09-4ab3-893e-8782edaa18f9}'
+                      labels:
+                        label:
+                          '@description': Budget
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_budget
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_budget
+                  - cell:
+                      '@id': '{c731a0e6-b374-4235-88f9-9e65237f4873}'
+                      labels:
+                        label:
+                          '@description': Actual Cost
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_actual_cost
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_actual_cost
+                  - cell:
+                      '@id': '{0c5ab8c8-c12b-4e52-b19a-2aaf22096a78}'
+                      labels:
+                        label:
+                          '@description': Project Health
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_project_health
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_project_health
+                  - cell:
+                      '@id': '{04d8cd64-0187-4658-be1f-e218895fd93e}'
+                      labels:
+                        label:
+                          '@description': Progress Percent
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_progress_percent
+                        '@classid': '{c3efe0c3-0ec6-42be-8349-cbd9079dfd8e}'
+                        '@datafieldname': cr4fe_progress_percent
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

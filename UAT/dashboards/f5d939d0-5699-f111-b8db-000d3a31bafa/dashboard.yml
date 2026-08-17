@@ -1,0 +1,242 @@
+Dashboard:
+  LocalizedNames:
+    LocalizedName:
+      '@description': EDOG Executive Command Center
+      '@languagecode': 1033
+  FormId: '{f5d939d0-5699-f111-b8db-000d3a31bafa}'
+  IsCustomizable: 1
+  IsDefault: 0
+  FormXml:
+    forms:
+      '@type': dashboard
+      form:
+        tabs:
+          tab:
+            '@showlabel': false
+            '@verticallayout': true
+            '@id': '{d76daa09-1097-483b-8d0a-80f3ea1b5db4}'
+            labels:
+              label:
+                '@description': Tab
+                '@languagecode': 1033
+            columns:
+              column:
+                '@width': 100%
+                sections:
+                  section:
+                    '@showlabel': false
+                    '@showbar': false
+                    '@columns': 111
+                    '@id': '{3040005d-27a6-47f9-9e2e-4be7c0142790}'
+                    labels:
+                      label:
+                        '@description': Section
+                        '@languagecode': 1033
+                    rows:
+                      row:
+                      - cell:
+                        - '@colspan': 1
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{0eb3122f-9be0-4321-af9b-193f13e0b620}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Asset
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component7924a58
+                            '@uniqueid': '{3585e7c5-0329-ecc5-8d71-a6ae2a78d385}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_asset
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{6F7A329D-5099-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{487A9F77-0A63-4724-8CD1-1E7678C47382}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 1
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{af095bc0-4d5c-4b46-aa06-d9c608ba861e}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Compliance Assessment
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component3f5ad08
+                            '@uniqueid': '{67eb5a1a-7754-4926-4b56-46a68cdd084e}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_complianceassessment
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{8DC9C430-5199-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{E0E3A3F3-1BA3-421D-AB1C-1DD2B0E30002}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 1
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{6cdd64ab-4996-42f7-a923-fbd7b901b3a6}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Risk Register
+                              '@languagecode': 1033
+                          control:
+                            '@id': Componente71e1ac
+                            '@uniqueid': '{e1bea0ab-e719-b339-5517-5ab1791e9082}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_riskregister
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{2EDDDCA9-5199-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{C76E5647-7B19-4C4F-8F58-9E296FEF06C0}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - cell:
+                        - '@colspan': 1
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{1fb4ca5f-0462-48a6-a338-23b955fc0c52}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Audit Finding
+                              '@languagecode': 1033
+                          control:
+                            '@id': Component56c67c4
+                            '@uniqueid': '{b213499a-7e05-2567-7750-4b24940d89a3}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_auditfinding
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{C4F97001-5299-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{61C5C594-715E-4649-B22B-91C9E5C23B9F}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 1
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{b81c9823-9267-40ed-a9e5-969f48419ab3}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Project
+                              '@languagecode': 1033
+                          control:
+                            '@id': Componentc95442a
+                            '@uniqueid': '{a9645951-6e93-4a20-b6aa-cad9e5d3e8d8}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_project
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{A0B7A974-453D-4FB2-9CAC-E15CCDA475D8}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{EA804E22-0410-4917-9731-723A22F3BA06}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                        - '@colspan': 1
+                          '@rowspan': 12
+                          '@showlabel': false
+                          '@id': '{43d4577a-c5cb-4c1a-b25e-9cdf181d7dff}'
+                          '@auto': false
+                          labels:
+                            label:
+                              '@description': Incident
+                              '@languagecode': 1033
+                          control:
+                            '@id': Componentec998a9
+                            '@uniqueid': '{9d8068ba-eea0-914d-1a91-c76777dcc314}'
+                            '@classid': '{E7A81278-8635-4d9e-8D4D-59480B391C5B}'
+                            '@indicationOfSubgrid': true
+                            parameters:
+                              TargetEntityType: cr4fe_incident
+                              ChartGridMode: Chart
+                              EnableQuickFind: false
+                              EnableViewPicker: false
+                              EnableJumpBar: false
+                              RecordsPerPage: 10
+                              HeaderColorCode: 
+                              ViewId: '{E9AB1F87-5299-F111-B8DB-000D3A31BAFA}'
+                              IsUserView: false
+                              ViewIds: 
+                              AutoExpand: Fixed
+                              VisualizationId: '{FB68379A-07DD-4ADE-8ED4-C1BD6CFF057C}'
+                              IsUserChart: false
+                              EnableChartPicker: false
+                              RelationshipName: 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+                      - 
+  IntroducedVersion: 1.0.0.0
+  IsTabletEnabled: 0

@@ -1,0 +1,80 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{728977ed-199b-4802-ab22-6a45ff74ec73}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_programid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+        - '@name': cr4fe_program_name
+          '@width': 150
+        - '@name': cr4fe_status
+          '@width': 150
+        - '@name': cr4fe_owner_name
+          '@width': 150
+        - '@name': cr4fe_business_unit_ref
+          '@width': 150
+        - '@name': cr4fe_created_on_date
+          '@width': 150
+        - '@name': cr4fe_modified_on_date
+          '@width': 150
+        - '@name': cr4fe_description_text
+          '@width': 150
+        - '@name': cr4fe_portfolio
+          '@width': 150
+        - '@name': cr4fe_program_manager
+          '@width': 150
+        - '@name': cr4fe_program_budget
+          '@width': 150
+        - '@name': cr4fe_program_health
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_program
+        attribute:
+        - '@name': cr4fe_programid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        - '@name': cr4fe_program_name
+        - '@name': cr4fe_status
+        - '@name': cr4fe_owner_name
+        - '@name': cr4fe_business_unit_ref
+        - '@name': cr4fe_created_on_date
+        - '@name': cr4fe_modified_on_date
+        - '@name': cr4fe_description_text
+        - '@name': cr4fe_portfolio
+        - '@name': cr4fe_program_manager
+        - '@name': cr4fe_program_budget
+        - '@name': cr4fe_program_health
+        order:
+          '@attribute': cr4fe_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Programs
+      '@languagecode': 1033

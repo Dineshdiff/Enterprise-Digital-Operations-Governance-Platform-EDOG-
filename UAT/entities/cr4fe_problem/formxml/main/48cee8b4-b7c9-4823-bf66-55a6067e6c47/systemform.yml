@@ -1,0 +1,170 @@
+systemform:
+  formid: '{48cee8b4-b7c9-4823-bf66-55a6067e6c47}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{e4dcde18-f251-4191-aa2d-9e198d3e2157}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{773434da-0025-4e0f-9ecb-a347d72e1895}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{908a2144-d7b8-40b1-b328-a46f71be616b}'
+                      labels:
+                        label:
+                          '@description': Problem Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{fd07537d-1cd0-4a16-ba87-2fac2a354004}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{9a863c82-1396-45c4-b9d6-2d8227e531d8}'
+                      labels:
+                        label:
+                          '@description': Problem Number
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_problem_number
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_problem_number
+                  - cell:
+                      '@id': '{52791019-128f-4d5f-93b5-fdfdd5189f19}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{cb5f4ede-941f-4145-a94e-e5f15eb1649e}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{9a25811f-24e3-4215-9af7-9e40b36c24e5}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{93f7ecaa-e94d-4636-ad7e-789f2ac15242}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{f49dde08-8006-40f0-bbf4-8dfa7225229a}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{f6b45a44-ceda-45ea-8d02-cfb65588deb0}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{834734a7-3b11-4d2d-b72f-9eb7f539d4e7}'
+                      labels:
+                        label:
+                          '@description': Related Incident
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_related_incident
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_related_incident
+                  - cell:
+                      '@id': '{7aa76c9c-e764-48cf-a16b-0ebb114c1dbe}'
+                      labels:
+                        label:
+                          '@description': Root Cause
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_root_cause
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_root_cause
+                  - cell:
+                      '@id': '{b887fbd1-e23b-43fe-b277-5763523b4656}'
+                      labels:
+                        label:
+                          '@description': Known Error
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_known_error
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_known_error
+                  - cell:
+                      '@id': '{5fd370cb-7afc-4545-bcf2-559f8ca007da}'
+                      labels:
+                        label:
+                          '@description': Workaround
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_workaround
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_workaround
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

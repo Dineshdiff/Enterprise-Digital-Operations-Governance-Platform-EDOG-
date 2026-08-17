@@ -1,0 +1,93 @@
+attribute:
+  '@PhysicalName': cr4fe_Insight_Type
+  Type: picklist
+  Name: cr4fe_insight_type
+  LogicalName: cr4fe_insight_type
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  optionset:
+    '@Name': new_cr4fe_aiinsight_cr4fe_insight_type
+    OptionSetType: picklist
+    IntroducedVersion: 1.0
+    IsCustomizable: 1
+    displaynames:
+      displayname:
+        '@description': Insight Type
+        '@languagecode': 1033
+    options:
+      option:
+      - '@value': 100000000
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Governance
+            '@languagecode': 1033
+      - '@value': 100000001
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Risk
+            '@languagecode': 1033
+      - '@value': 100000002
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Compliance
+            '@languagecode': 1033
+      - '@value': 100000003
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Operations
+            '@languagecode': 1033
+      - '@value': 100000004
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': AI Automation
+            '@languagecode': 1033
+      - '@value': 100000005
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Cost Optimization
+            '@languagecode': 1033
+      - '@value': 100000006
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Security
+            '@languagecode': 1033
+      - '@value': 100000007
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': PMO
+            '@languagecode': 1033
+  displaynames:
+    displayname:
+      '@description': Insight Type
+      '@languagecode': 1033

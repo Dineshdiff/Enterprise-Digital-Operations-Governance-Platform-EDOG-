@@ -1,0 +1,179 @@
+RootComponents:
+  RootComponent:
+  - '@type': 1
+    '@schemaName': cr4fe_aiinsight
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_application
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_asset
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_audit
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_auditactionplan
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_auditfinding
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_auditrecommendation
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_benefit
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_budget
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_businessunit
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_changerequest
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_cloudresource
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_complianceassessment
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_complianceexception
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_complianceframework
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_control
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_controlevidence
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_database
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_department
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_employee
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_environment
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_executivekpi
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_executivereport
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_incident
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_incidents
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_initiative
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_integrationlog
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_invoice
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_kpi
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_location
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_milestone
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_objective
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_okr
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_policy
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_portfolio
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_problem
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_program
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_project
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_recommendation
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_riskassessment
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_riskowner
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_riskregister
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_risktreatmentplan
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_role
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_server
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_servicerequest
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_sla
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_strategicgoal
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_vendor
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_vendorcontract
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_vendorreview
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': cr4fe_vendorrisk
+    '@behavior': 0
+  - '@type': 60
+    '@id': '{17dd866a-5799-f111-b8db-000d3a31bafa}'
+    '@behavior': 0
+  - '@type': 60
+    '@id': '{9f1aaff2-6099-f111-b8db-000d3a31bafa}'
+    '@behavior': 0
+  - '@type': 60
+    '@id': '{f5d939d0-5699-f111-b8db-000d3a31bafa}'
+    '@behavior': 0
+  - '@type': 60
+    '@id': '{fad56c25-5799-f111-b8db-000d3a31bafa}'
+    '@behavior': 0
+  - '@type': 61
+    '@schemaName': dinesh_EDOG
+    '@behavior': 0
+  - '@type': 62
+    '@schemaName': dinesh_EnterpriseDigitalOperationsGovern
+    '@behavior': 0
+  - '@type': 80
+    '@schemaName': dinesh_EnterpriseDigitalOperationsGovern
+    '@behavior': 0

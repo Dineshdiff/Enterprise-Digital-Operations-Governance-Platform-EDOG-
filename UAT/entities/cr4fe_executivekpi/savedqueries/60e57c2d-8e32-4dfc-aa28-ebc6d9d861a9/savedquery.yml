@@ -1,0 +1,65 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{60e57c2d-8e32-4dfc-aa28-ebc6d9d861a9}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': cr4fe_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': cr4fe_executivekpiid
+        cell:
+        - '@name': cr4fe_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+        - '@name': cr4fe_kpi_name
+          '@width': 150
+        - '@name': cr4fe_current_value
+          '@width': 150
+        - '@name': cr4fe_target_value
+          '@width': 150
+        - '@name': cr4fe_kpi_category
+          '@width': 150
+        - '@name': cr4fe_kpi_status
+          '@width': 150
+        - '@name': cr4fe_last_refresh
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': cr4fe_executivekpi
+        attribute:
+        - '@name': cr4fe_executivekpiid
+        - '@name': cr4fe_name
+        - '@name': createdon
+        - '@name': cr4fe_kpi_name
+        - '@name': cr4fe_current_value
+        - '@name': cr4fe_target_value
+        - '@name': cr4fe_kpi_category
+        - '@name': cr4fe_kpi_status
+        - '@name': cr4fe_last_refresh
+        order:
+          '@attribute': cr4fe_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Executive KPIs
+      '@languagecode': 1033

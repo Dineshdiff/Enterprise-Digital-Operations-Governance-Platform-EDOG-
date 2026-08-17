@@ -1,0 +1,170 @@
+systemform:
+  formid: '{8c436268-dc3d-4d6f-af47-c1da2d7ae540}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{f1188d49-fc4f-449f-88fc-cb361c7bd72b}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{f45a4841-9184-4a80-95e9-82c5001485fe}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{ad07c056-b542-49d0-847c-05130e384c0f}'
+                      labels:
+                        label:
+                          '@description': Risk Treatment Plan Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{0b19d740-2850-4305-a75c-60caa3672048}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{a17c33c0-a289-4f5a-9197-5b85af970650}'
+                      labels:
+                        label:
+                          '@description': Treatment Plan Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_treatment_plan_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_treatment_plan_name
+                  - cell:
+                      '@id': '{6a020181-dd4c-4855-97f1-0625e9121e31}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{d3e9b181-3c90-48bd-9ba4-a5cde447e061}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{f907f664-c8e1-458c-978b-cf57f2129c50}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{6ad74a2f-19d3-4c5f-8d1b-c2d137926220}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{a554c0a1-aa1e-44d9-a3ff-e52ae42e61c4}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{5cfa5cc6-2e0e-4351-9e52-25cd3018fe39}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{77427bf0-7e19-43a7-b9df-d005d7e57b18}'
+                      labels:
+                        label:
+                          '@description': Risk
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_risk
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_risk
+                  - cell:
+                      '@id': '{fa203798-636f-48ec-9a6b-37b1a6bb88eb}'
+                      labels:
+                        label:
+                          '@description': Treatment Strategy
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_treatment_strategy
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_treatment_strategy
+                  - cell:
+                      '@id': '{057c37c3-ceb2-4443-aa71-2604e3e52b0b}'
+                      labels:
+                        label:
+                          '@description': Target Completion
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_target_completion
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_target_completion
+                  - cell:
+                      '@id': '{b31c97e3-32a6-44ba-9c86-10333da844e6}'
+                      labels:
+                        label:
+                          '@description': Treatment Cost
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_treatment_cost
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_treatment_cost
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

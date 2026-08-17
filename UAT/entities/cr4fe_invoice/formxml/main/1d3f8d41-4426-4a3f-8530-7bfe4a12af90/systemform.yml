@@ -1,0 +1,170 @@
+systemform:
+  formid: '{1d3f8d41-4426-4a3f-8530-7bfe4a12af90}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{178e3ee1-884e-45cd-b8e4-92bb2685f45a}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{8bbfa15b-e3c4-4803-8664-52f702349740}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{8ad4263f-a68f-4500-b7e6-3e782cf9bd5c}'
+                      labels:
+                        label:
+                          '@description': Invoice Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{90f48b2b-dc71-4868-a495-f5d8a7fdad56}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{47a48d74-9776-4a1a-bbfc-6507cc87ffe9}'
+                      labels:
+                        label:
+                          '@description': Invoice Number
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_invoice_number
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_invoice_number
+                  - cell:
+                      '@id': '{d212c98f-3312-4371-89c3-ebc8d57d38d8}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{65614f4b-1c82-441e-aa4a-cfd457df90dd}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{adc75c79-4d9b-4088-80a8-f71a5cc26955}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{98d54519-2f8d-4ba3-8482-1e0f510e268a}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{7523220e-8246-4379-afcc-633dd7a4db34}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{ca61a234-3507-4a62-b860-f63c2f7a2d6d}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{9c4e5a9c-80b8-41a9-804a-fe94217aaf52}'
+                      labels:
+                        label:
+                          '@description': Vendor
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_vendor
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_vendor
+                  - cell:
+                      '@id': '{0936df28-70d5-45f1-8b36-5ce09f8cfebf}'
+                      labels:
+                        label:
+                          '@description': Invoice Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_invoice_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_invoice_date
+                  - cell:
+                      '@id': '{27c8a12a-dd58-489e-843d-8e2eae33e387}'
+                      labels:
+                        label:
+                          '@description': Invoice Amount
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_invoice_amount
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_invoice_amount
+                  - cell:
+                      '@id': '{ad2aa48b-1d48-4d98-9220-6af2772738ad}'
+                      labels:
+                        label:
+                          '@description': Payment Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_payment_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_payment_status
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

@@ -1,0 +1,170 @@
+systemform:
+  formid: '{c7e5dc27-9d28-4290-addc-e9e8a8cec39c}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{2ea88094-63c2-4d6d-93fa-5187c5c8c405}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{d7b76be9-6110-4309-b2b3-ae5d965c53c4}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{af66f937-c3d3-46ea-9956-5a5796a31948}'
+                      labels:
+                        label:
+                          '@description': Milestone Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{8294140b-d2ef-4361-b994-56e1de7ffa1b}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{0964c9e0-0cb5-43aa-a5ed-04b7b7cf67bf}'
+                      labels:
+                        label:
+                          '@description': Milestone Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_milestone_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_milestone_name
+                  - cell:
+                      '@id': '{edc032de-fe6a-49b0-9f4d-9b8d3d4d0f81}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{ca304a7c-2e66-4765-b331-088d69da99af}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{48df8786-ca7b-4282-8e90-c39219ebe8f3}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{095f4895-4e75-49f1-8243-15957a506ecb}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{39efc095-8b9f-48d7-bb17-2b696c28c892}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{38055c8e-8111-46ac-8c2f-145c5430081e}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{b437aee3-2e1c-4011-bb52-53021c60ec80}'
+                      labels:
+                        label:
+                          '@description': Project
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_project
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_project
+                  - cell:
+                      '@id': '{c1022261-4041-4ab1-9f1a-d60282846457}'
+                      labels:
+                        label:
+                          '@description': Planned Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_planned_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_planned_date
+                  - cell:
+                      '@id': '{cd85c782-2453-425c-9ab0-63dcefa6819a}'
+                      labels:
+                        label:
+                          '@description': Actual Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_actual_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_actual_date
+                  - cell:
+                      '@id': '{b7d625a4-aee1-4010-b7a1-309110c62b1a}'
+                      labels:
+                        label:
+                          '@description': Milestone Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_milestone_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_milestone_status
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

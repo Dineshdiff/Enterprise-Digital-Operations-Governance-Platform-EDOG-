@@ -1,0 +1,170 @@
+systemform:
+  formid: '{a7d45121-4749-4da9-8299-9eb0f645f144}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{c6a9104d-c253-4ab3-bc07-264669f4558f}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{d4abbd93-c9f0-45a8-b35a-3eb3461b2326}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{b889fd2b-37d2-4201-951d-47779d799d1c}'
+                      labels:
+                        label:
+                          '@description': Cloud Resource Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{85c2b746-eae2-4b99-a0b9-e0a21dd495f8}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{b36177cf-484f-4135-8667-ee9aeceed981}'
+                      labels:
+                        label:
+                          '@description': Resource Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_resource_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_resource_name
+                  - cell:
+                      '@id': '{371bef1a-46e8-435f-9601-8173eb6cb8eb}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{7f74e163-36f4-4830-9ca9-7829c5dae5d4}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{936e2166-1e91-4dd3-8e15-6b5002a669f4}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{fc1c5950-e8ce-4b26-b766-701d5149485a}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{a2342335-9464-4527-8e89-4a4bdf65fa05}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{700fc2b0-a1fe-4cd0-81b8-ce62bb4aca34}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{71a8ad33-a56e-4483-bd1e-f6396243ba72}'
+                      labels:
+                        label:
+                          '@description': Cloud Provider
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_cloud_provider
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_cloud_provider
+                  - cell:
+                      '@id': '{1f79fcde-de14-4f3a-9be5-4800ad6d3f87}'
+                      labels:
+                        label:
+                          '@description': Resource Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_resource_type
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_resource_type
+                  - cell:
+                      '@id': '{4ded497e-aea3-4c2c-9e4e-c939ccdcc741}'
+                      labels:
+                        label:
+                          '@description': Monthly Cost
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_monthly_cost
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_monthly_cost
+                  - cell:
+                      '@id': '{112e364a-a66b-41f9-a6a5-e2bbaecd6c09}'
+                      labels:
+                        label:
+                          '@description': Subscription
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_subscription
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_subscription
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

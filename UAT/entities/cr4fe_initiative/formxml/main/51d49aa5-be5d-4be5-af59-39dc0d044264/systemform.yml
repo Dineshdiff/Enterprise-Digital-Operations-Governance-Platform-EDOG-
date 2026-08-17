@@ -1,0 +1,170 @@
+systemform:
+  formid: '{51d49aa5-be5d-4be5-af59-39dc0d044264}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{6f618551-46a9-4af7-9dd4-116b39a74f1d}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{1a382522-88f0-41f9-8030-824b6b6d5ab6}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{dd3f51fa-3377-4433-952e-4bec54a3bd1d}'
+                      labels:
+                        label:
+                          '@description': Initiative Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': cr4fe_name
+                  - cell:
+                      '@id': '{843a3094-3669-4c2e-8c81-2b8dae24f50b}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{efd7be79-1969-4f09-b60c-be47271d56f6}'
+                      labels:
+                        label:
+                          '@description': Initiative Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_initiative_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_initiative_name
+                  - cell:
+                      '@id': '{2b683d64-83a9-47c4-a366-bd8db8195e5a}'
+                      labels:
+                        label:
+                          '@description': Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_status
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': cr4fe_status
+                  - cell:
+                      '@id': '{642a75b3-f130-4945-b05a-8d7f8130c83f}'
+                      labels:
+                        label:
+                          '@description': Owner Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_owner_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_owner_name
+                  - cell:
+                      '@id': '{523d6e20-3c8e-41d6-94b1-78db91a365de}'
+                      labels:
+                        label:
+                          '@description': Business Unit Ref
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_business_unit_ref
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_business_unit_ref
+                  - cell:
+                      '@id': '{f836bfd2-6707-4605-8af4-c6f5974046b6}'
+                      labels:
+                        label:
+                          '@description': Created On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_created_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_created_on_date
+                  - cell:
+                      '@id': '{f54c11b4-e7eb-452e-bf03-49a151749e57}'
+                      labels:
+                        label:
+                          '@description': Modified On Date
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_modified_on_date
+                        '@classid': '{5b773807-9fb2-42db-97c3-7a91eff8adff}'
+                        '@datafieldname': cr4fe_modified_on_date
+                  - cell:
+                      '@id': '{d17068a8-0cbb-47b3-9c73-67c38b5ee49c}'
+                      labels:
+                        label:
+                          '@description': Description Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_description_text
+                        '@classid': '{e0dece4b-6fc8-4a8f-a065-082708572369}'
+                        '@datafieldname': cr4fe_description_text
+                  - cell:
+                      '@id': '{e311cfc4-f7c1-4eee-8070-91cd759c2bbb}'
+                      labels:
+                        label:
+                          '@description': Objective
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_objective
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': cr4fe_objective
+                  - cell:
+                      '@id': '{40c86e51-09ed-4ab2-bd1a-fc4d285808bd}'
+                      labels:
+                        label:
+                          '@description': Initiative Sponsor
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_initiative_sponsor
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_initiative_sponsor
+                  - cell:
+                      '@id': '{fc7ddc55-4bb9-4c05-a0a1-4907d45eeb1e}'
+                      labels:
+                        label:
+                          '@description': Investment
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_investment
+                        '@classid': '{533b9e00-756b-4312-95a0-dc888637ac78}'
+                        '@datafieldname': cr4fe_investment
+                  - cell:
+                      '@id': '{5345c2a5-566a-454a-9800-1b82a01dfba4}'
+                      labels:
+                        label:
+                          '@description': Expected Outcome
+                          '@languagecode': 1033
+                      control:
+                        '@id': cr4fe_expected_outcome
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': cr4fe_expected_outcome
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033
